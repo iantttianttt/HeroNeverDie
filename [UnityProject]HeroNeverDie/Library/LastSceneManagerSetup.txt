@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Plugins/Sirenix/Demos/Odin Attributes Overview/Odin Attributes Overview.unity
+- path: Assets/Scenes/Ian/TestScene.unity
   isLoaded: 1
   isActive: 1
