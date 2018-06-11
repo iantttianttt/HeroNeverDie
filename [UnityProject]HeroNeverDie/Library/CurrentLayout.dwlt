@@ -91,7 +91,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 362}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 809
+  controlID: 58
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -250,7 +250,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 492}
   m_MaxSize: {x: 10004, y: 14042}
   vertical: 1
-  controlID: 56
+  controlID: 82
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -319,7 +319,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 492}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 151
+  controlID: 102
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -358,8 +358,8 @@ MonoBehaviour:
     y: 0
     width: 1030
     height: 569
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 25}
   m_Panes:
   - {fileID: 25}
@@ -386,8 +386,8 @@ MonoBehaviour:
     y: 0
     width: 442
     height: 947
-  m_MinSize: {x: 277, y: 71}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 22}
   m_Panes:
   - {fileID: 22}
@@ -445,7 +445,7 @@ MonoBehaviour:
   logPanelScroll: {x: 0, y: 0}
   logPanelSelectedIndex: -1
   logPanelAutoScroll: 1
-  currentFrame: 365701
+  currentFrame: 376302
   logs:
     lastGrabbedIndex: -1
     lastGrabbedCount: 0
@@ -593,20 +593,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scenes
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Scenes
+  - Assets
   m_LastFoldersGridSize: 16
-  m_LastProjectPath: D:\IanPersonl\PersonlProjects\[UnityProject]Hero
+  m_LastProjectPath: D:\IanPersonl\PersonlProjects\HeroNeverDie\[UnityProject]HeroNeverDie
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 06310000
-    m_LastClickedID: 12550
-    m_ExpandedIDs: 4a300000063100003a4e0000de500000f6500000005100005051000086510000dc510000d0810000d8810000ffffff7f
+    m_SelectedIDs: d43d0000
+    m_LastClickedID: 15828
+    m_ExpandedIDs: 00000000c6330000d43d0000403e0000ce3e00000c400000084100006c4100006e41000070410000724100007441000076410000784100007a410000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -634,7 +634,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 00000000c6330000d43d0000ce3e00006c4100006e41000070410000724100007441000076410000784100007a410000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -827,7 +827,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.23889765, y: -0.6689913, z: 0.24178465, w: -0.66100466}
     speed: 2
-    m_Value: {x: -0.23889665, y: -0.6689885, z: 0.24178363, w: -0.6610019}
+    m_Value: {x: 0.23889765, y: 0.6689913, z: -0.24178465, w: 0.6610046}
   m_Size:
     m_Target: 34.13665
     speed: 2
@@ -872,26 +872,25 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: c095f1ff8c98f1ff6483f2ff2016f3ff188df3ff0c9cf3ff16c8f3ff3e54f4ff2ea3f9ff4e3cfeffac8ffeff0abeffffa2f3ffff00000000c03e000010400000
+    m_ExpandedIDs: caf0ffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Essentials
-      m_OriginalName: Essentials
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 18034
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 18}
     m_SearchString: 
-  m_ExpandedScenes:
-  - SampleScene
+  m_ExpandedScenes: []
   m_CurrenRootInstanceID: 0
   m_LockTracker:
     m_IsLocked: 0
