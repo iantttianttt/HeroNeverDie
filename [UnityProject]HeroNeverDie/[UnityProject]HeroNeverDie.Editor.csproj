@@ -366,6 +366,10 @@
       <Project>{EC1B2CEF-EFAF-3E5A-A7FA-DD3D823EBCD8}</Project>
       <Name>[UnityProject]HeroNeverDie.Plugins</Name>
     </ProjectReference>
+    <ProjectReference Include="[UnityProject]HeroNeverDie.csproj">
+      <Project>{663FAF3B-C0BF-3E87-67CD-6162B2BCA307}</Project>
+      <Name>[UnityProject]HeroNeverDie</Name>
+    </ProjectReference>
     <ProjectReference Include="[UnityProject]HeroNeverDie.Editor.Plugins.csproj">
       <Project>{34AFD796-3A83-B222-E648-67FB41FC482C}</Project>
       <Name>[UnityProject]HeroNeverDie.Editor.Plugins</Name>

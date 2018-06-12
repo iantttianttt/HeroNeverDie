@@ -348,11 +348,11 @@
     <Reference Include="Boo.Lang">
       <HintPath>Library\UnityAssemblies\Boo.Lang.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>Library\ScriptAssemblies\UnityEditor.StandardEvents.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.StandardEvents">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="ConsolePro.Editor">
       <HintPath>Assets\Plugins\ConsolePro\Editor\ConsolePro.Editor.dll</HintPath>
@@ -380,6 +380,10 @@
     <ProjectReference Include="[UnityProject]HeroNeverDie.Plugins.csproj">
       <Project>{EC1B2CEF-EFAF-3E5A-A7FA-DD3D823EBCD8}</Project>
       <Name>[UnityProject]HeroNeverDie.Plugins</Name>
+    </ProjectReference>
+    <ProjectReference Include="[UnityProject]HeroNeverDie.csproj">
+      <Project>{663FAF3B-C0BF-3E87-67CD-6162B2BCA307}</Project>
+      <Name>[UnityProject]HeroNeverDie</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
