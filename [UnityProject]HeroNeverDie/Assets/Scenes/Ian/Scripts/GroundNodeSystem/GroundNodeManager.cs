@@ -5,18 +5,21 @@ using UnityEngine;
 public class GroundNodeManager : Singleton<GroundNodeManager>
 {
 
-	public List<GroundNode> AllGroundNodeList;
+	public List<GroundNodeBase> AllGroundNodeList;
 
 
 	public void Initialize()
 	{
-		GroundNode[] temp = FindObjectsOfType<GroundNode>();
+		GroundNodeBase[] temp = FindObjectsOfType<GroundNodeBase>();
 		for (int i = 0; i < temp.Length; i++)
 		{
-			AllGroundNodeList.Add(temp[i]);
+			if (temp[i].CurrentNodeDeta.NodeType != NodeType.None)
+			{
+				AllGroundNodeList.Add(temp[i]);
+			}
 		}
 
-		foreach (GroundNode node in AllGroundNodeList)
+		foreach (GroundNodeBase node in AllGroundNodeList)
 		{
 			node.Initialize();
 		}
@@ -24,13 +27,13 @@ public class GroundNodeManager : Singleton<GroundNodeManager>
 
 	public void UpdateAllGroundNode()
 	{
-		foreach (GroundNode node in AllGroundNodeList)
+		foreach (GroundNodeBase node in AllGroundNodeList)
 		{
-			node.UpdateNodeEffect();
+			node.NodeEffect();
 		}
-		foreach (GroundNode node in AllGroundNodeList)
+		foreach (GroundNodeBase node in AllGroundNodeList)
 		{
-			node.UpdateNodeState();
+			node.UpdateNode();
 		}
 	}
 

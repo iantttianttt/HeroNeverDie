@@ -159,11 +159,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 53a9f642966069c44a152dc4e08054f3, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &48300381 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1999419658673704, guid: efa9f99aa08385e4391a7946fdff77de,
-    type: 2}
-  m_PrefabInternal: {fileID: 1524700530}
 --- !u!4 &48300382 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4024410427832204, guid: efa9f99aa08385e4391a7946fdff77de,
@@ -323,21 +318,11 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fb6c4a4f23239d7439b74a606d7eeda9, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &122201297 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1045245929319538, guid: fb6c4a4f23239d7439b74a606d7eeda9,
-    type: 2}
-  m_PrefabInternal: {fileID: 306754835}
 --- !u!4 &122201298 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4677408924755062, guid: fb6c4a4f23239d7439b74a606d7eeda9,
     type: 2}
   m_PrefabInternal: {fileID: 306754835}
---- !u!1 &123120323 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1400906217237092, guid: eeeaf2fe060ec584da1a009e4185417d,
-    type: 2}
-  m_PrefabInternal: {fileID: 356904459}
 --- !u!4 &123120324 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4759597923395982, guid: eeeaf2fe060ec584da1a009e4185417d,
@@ -404,7 +389,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &141620363
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -420,14 +405,15 @@ MonoBehaviour:
   - {fileID: 1373438732}
   - {fileID: 1031478984}
   - {fileID: 1595088646}
-  CurrentNodeType: 0
-  BrightnessPoint: 0
-  DarknessPoint: 0
-  Neutral_Obj: {fileID: 1594688032}
-  DemonCastle_Obj: {fileID: 907796486}
-  HeroCastle_Obj: {fileID: 1014062689}
-  Town_Obj: {fileID: 512444386}
-  DemonWatchTower_Obj: {fileID: 1349503343}
+  CurrentNodeDeta:
+    NodeType: 0
+    TypeObject: {fileID: 0}
+    BasicLightPoint: 0
+    BasicDarkPoint: 0
+    LightPointEffect: 0
+    DarkPointEffect: 0
+    LightPointGenerate: 0
+    DarkPointGenerate: 0
 --- !u!4 &141620364
 Transform:
   m_ObjectHideFlags: 0
@@ -445,7 +431,7 @@ Transform:
   - {fileID: 1594688033}
   - {fileID: 1523340578}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &158795210
 Prefab:
@@ -580,7 +566,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1053703857237492, guid: 0f97b0191d8abad4581f1f3195e7c954, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0f97b0191d8abad4581f1f3195e7c954, type: 2}
@@ -685,31 +671,16 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 067161ae46386c14c842800eb27cf27b, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &246954480 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1045245929319538, guid: fb6c4a4f23239d7439b74a606d7eeda9,
-    type: 2}
-  m_PrefabInternal: {fileID: 756251939}
 --- !u!4 &246954481 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4677408924755062, guid: fb6c4a4f23239d7439b74a606d7eeda9,
     type: 2}
   m_PrefabInternal: {fileID: 756251939}
---- !u!1 &271028813 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1053703857237492, guid: 0f97b0191d8abad4581f1f3195e7c954,
-    type: 2}
-  m_PrefabInternal: {fileID: 2090359663}
 --- !u!4 &271028814 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4723181601694642, guid: 0f97b0191d8abad4581f1f3195e7c954,
     type: 2}
   m_PrefabInternal: {fileID: 2090359663}
---- !u!1 &287079188 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1053703857237492, guid: 0f97b0191d8abad4581f1f3195e7c954,
-    type: 2}
-  m_PrefabInternal: {fileID: 2133782776}
 --- !u!4 &287079189 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4723181601694642, guid: 0f97b0191d8abad4581f1f3195e7c954,
@@ -880,7 +851,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &298183549
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -896,14 +867,15 @@ MonoBehaviour:
   - {fileID: 1878887300}
   - {fileID: 1373438732}
   - {fileID: 1652397204}
-  CurrentNodeType: 0
-  BrightnessPoint: 0
-  DarknessPoint: 0
-  Neutral_Obj: {fileID: 393189850}
-  DemonCastle_Obj: {fileID: 1675191945}
-  HeroCastle_Obj: {fileID: 403033505}
-  Town_Obj: {fileID: 122201297}
-  DemonWatchTower_Obj: {fileID: 1874304750}
+  CurrentNodeDeta:
+    NodeType: 0
+    TypeObject: {fileID: 0}
+    BasicLightPoint: 0
+    BasicDarkPoint: 0
+    LightPointEffect: 0
+    DarkPointEffect: 0
+    LightPointGenerate: 0
+    DarkPointGenerate: 0
 --- !u!4 &298183550
 Transform:
   m_ObjectHideFlags: 0
@@ -921,13 +893,8 @@ Transform:
   - {fileID: 393189851}
   - {fileID: 1224565968}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &301948285 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1045245929319538, guid: fb6c4a4f23239d7439b74a606d7eeda9,
-    type: 2}
-  m_PrefabInternal: {fileID: 1323710052}
 --- !u!4 &301948286 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4677408924755062, guid: fb6c4a4f23239d7439b74a606d7eeda9,
@@ -1044,11 +1011,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!1 &349818148 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1428875305566186, guid: 53a9f642966069c44a152dc4e08054f3,
-    type: 2}
-  m_PrefabInternal: {fileID: 415452685}
 --- !u!4 &349818149 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4210400230260566, guid: 53a9f642966069c44a152dc4e08054f3,
@@ -1112,21 +1074,11 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: eeeaf2fe060ec584da1a009e4185417d, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &393189850 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1400906217237092, guid: eeeaf2fe060ec584da1a009e4185417d,
-    type: 2}
-  m_PrefabInternal: {fileID: 1700010091}
 --- !u!4 &393189851 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4759597923395982, guid: eeeaf2fe060ec584da1a009e4185417d,
     type: 2}
   m_PrefabInternal: {fileID: 1700010091}
---- !u!1 &403033505 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1428875305566186, guid: 53a9f642966069c44a152dc4e08054f3,
-    type: 2}
-  m_PrefabInternal: {fileID: 1277545317}
 --- !u!4 &403033506 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4210400230260566, guid: 53a9f642966069c44a152dc4e08054f3,
@@ -1178,71 +1130,36 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 53a9f642966069c44a152dc4e08054f3, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &451732685 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1053703857237492, guid: 0f97b0191d8abad4581f1f3195e7c954,
-    type: 2}
-  m_PrefabInternal: {fileID: 654140502}
 --- !u!4 &451732686 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4723181601694642, guid: 0f97b0191d8abad4581f1f3195e7c954,
     type: 2}
   m_PrefabInternal: {fileID: 654140502}
---- !u!1 &456718881 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1045245929319538, guid: fb6c4a4f23239d7439b74a606d7eeda9,
-    type: 2}
-  m_PrefabInternal: {fileID: 1350187045}
 --- !u!4 &456718882 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4677408924755062, guid: fb6c4a4f23239d7439b74a606d7eeda9,
     type: 2}
   m_PrefabInternal: {fileID: 1350187045}
---- !u!1 &457514569 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1045245929319538, guid: fb6c4a4f23239d7439b74a606d7eeda9,
-    type: 2}
-  m_PrefabInternal: {fileID: 1860219594}
 --- !u!4 &457514570 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4677408924755062, guid: fb6c4a4f23239d7439b74a606d7eeda9,
     type: 2}
   m_PrefabInternal: {fileID: 1860219594}
---- !u!1 &469567658 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1400906217237092, guid: eeeaf2fe060ec584da1a009e4185417d,
-    type: 2}
-  m_PrefabInternal: {fileID: 1622147358}
 --- !u!4 &469567659 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4759597923395982, guid: eeeaf2fe060ec584da1a009e4185417d,
     type: 2}
   m_PrefabInternal: {fileID: 1622147358}
---- !u!1 &469625460 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1999419658673704, guid: efa9f99aa08385e4391a7946fdff77de,
-    type: 2}
-  m_PrefabInternal: {fileID: 1927045246}
 --- !u!4 &469625461 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4024410427832204, guid: efa9f99aa08385e4391a7946fdff77de,
     type: 2}
   m_PrefabInternal: {fileID: 1927045246}
---- !u!1 &512444386 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1045245929319538, guid: fb6c4a4f23239d7439b74a606d7eeda9,
-    type: 2}
-  m_PrefabInternal: {fileID: 1527450120}
 --- !u!4 &512444387 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4677408924755062, guid: fb6c4a4f23239d7439b74a606d7eeda9,
     type: 2}
   m_PrefabInternal: {fileID: 1527450120}
---- !u!1 &526245145 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1999419658673704, guid: efa9f99aa08385e4391a7946fdff77de,
-    type: 2}
-  m_PrefabInternal: {fileID: 1586268379}
 --- !u!4 &526245146 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4024410427832204, guid: efa9f99aa08385e4391a7946fdff77de,
@@ -1294,31 +1211,16 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fb6c4a4f23239d7439b74a606d7eeda9, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &538129543 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1045245929319538, guid: fb6c4a4f23239d7439b74a606d7eeda9,
-    type: 2}
-  m_PrefabInternal: {fileID: 1299723597}
 --- !u!4 &538129544 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4677408924755062, guid: fb6c4a4f23239d7439b74a606d7eeda9,
     type: 2}
   m_PrefabInternal: {fileID: 1299723597}
---- !u!1 &538484242 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1053703857237492, guid: 0f97b0191d8abad4581f1f3195e7c954,
-    type: 2}
-  m_PrefabInternal: {fileID: 197102232}
 --- !u!4 &538484243 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4723181601694642, guid: 0f97b0191d8abad4581f1f3195e7c954,
     type: 2}
   m_PrefabInternal: {fileID: 197102232}
---- !u!1 &541239680 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1400906217237092, guid: eeeaf2fe060ec584da1a009e4185417d,
-    type: 2}
-  m_PrefabInternal: {fileID: 1601266104}
 --- !u!4 &541239681 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4759597923395982, guid: eeeaf2fe060ec584da1a009e4185417d,
@@ -1378,11 +1280,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 067161ae46386c14c842800eb27cf27b, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &584407973 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1999419658673704, guid: efa9f99aa08385e4391a7946fdff77de,
-    type: 2}
-  m_PrefabInternal: {fileID: 1936557121}
 --- !u!4 &584407974 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4024410427832204, guid: efa9f99aa08385e4391a7946fdff77de,
@@ -1480,11 +1377,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 53a9f642966069c44a152dc4e08054f3, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &610071725 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1053703857237492, guid: 0f97b0191d8abad4581f1f3195e7c954,
-    type: 2}
-  m_PrefabInternal: {fileID: 2085832733}
 --- !u!4 &610071726 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4723181601694642, guid: 0f97b0191d8abad4581f1f3195e7c954,
@@ -1581,16 +1473,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1045245929319538, guid: fb6c4a4f23239d7439b74a606d7eeda9, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fb6c4a4f23239d7439b74a606d7eeda9, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &680256757 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1053703857237492, guid: 0f97b0191d8abad4581f1f3195e7c954,
-    type: 2}
-  m_PrefabInternal: {fileID: 1370942581}
 --- !u!4 &680256758 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4723181601694642, guid: 0f97b0191d8abad4581f1f3195e7c954,
@@ -1677,11 +1564,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &748971234 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1045245929319538, guid: fb6c4a4f23239d7439b74a606d7eeda9,
-    type: 2}
-  m_PrefabInternal: {fileID: 666662247}
 --- !u!4 &748971235 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4677408924755062, guid: fb6c4a4f23239d7439b74a606d7eeda9,
@@ -1737,11 +1619,6 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 475264, guid: 067161ae46386c14c842800eb27cf27b, type: 2}
   m_PrefabInternal: {fileID: 1327085911}
---- !u!1 &763748758 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1428875305566186, guid: 53a9f642966069c44a152dc4e08054f3,
-    type: 2}
-  m_PrefabInternal: {fileID: 48226381}
 --- !u!4 &763748759 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4210400230260566, guid: 53a9f642966069c44a152dc4e08054f3,
@@ -2024,7 +1901,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &838668596
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2040,14 +1917,15 @@ MonoBehaviour:
   - {fileID: 1555117816}
   - {fileID: 1595088646}
   - {fileID: 1658341384}
-  CurrentNodeType: 0
-  BrightnessPoint: 0
-  DarknessPoint: 0
-  Neutral_Obj: {fileID: 1605889348}
-  DemonCastle_Obj: {fileID: 287079188}
-  HeroCastle_Obj: {fileID: 864771888}
-  Town_Obj: {fileID: 457514569}
-  DemonWatchTower_Obj: {fileID: 1121252730}
+  CurrentNodeDeta:
+    NodeType: 0
+    TypeObject: {fileID: 0}
+    BasicLightPoint: 0
+    BasicDarkPoint: 0
+    LightPointEffect: 0
+    DarkPointEffect: 0
+    LightPointGenerate: 0
+    DarkPointGenerate: 0
 --- !u!4 &838668597
 Transform:
   m_ObjectHideFlags: 0
@@ -2065,7 +1943,7 @@ Transform:
   - {fileID: 1605889349}
   - {fileID: 1428297087}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &848524104
 Prefab:
@@ -2113,11 +1991,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 53a9f642966069c44a152dc4e08054f3, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &864771888 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1428875305566186, guid: 53a9f642966069c44a152dc4e08054f3,
-    type: 2}
-  m_PrefabInternal: {fileID: 1660135668}
 --- !u!4 &864771889 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4210400230260566, guid: 53a9f642966069c44a152dc4e08054f3,
@@ -2227,51 +2100,112 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: eeeaf2fe060ec584da1a009e4185417d, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &902383463 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1400906217237092, guid: eeeaf2fe060ec584da1a009e4185417d,
-    type: 2}
-  m_PrefabInternal: {fileID: 879830538}
 --- !u!4 &902383464 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4759597923395982, guid: eeeaf2fe060ec584da1a009e4185417d,
     type: 2}
   m_PrefabInternal: {fileID: 879830538}
---- !u!1 &907796486 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1053703857237492, guid: 0f97b0191d8abad4581f1f3195e7c954,
-    type: 2}
-  m_PrefabInternal: {fileID: 1615583962}
 --- !u!4 &907796487 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4723181601694642, guid: 0f97b0191d8abad4581f1f3195e7c954,
     type: 2}
   m_PrefabInternal: {fileID: 1615583962}
---- !u!1 &913477625 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1428875305566186, guid: 53a9f642966069c44a152dc4e08054f3,
-    type: 2}
-  m_PrefabInternal: {fileID: 1002795948}
 --- !u!4 &913477626 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4210400230260566, guid: 53a9f642966069c44a152dc4e08054f3,
     type: 2}
   m_PrefabInternal: {fileID: 1002795948}
---- !u!1 &953573372 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1428875305566186, guid: 53a9f642966069c44a152dc4e08054f3,
-    type: 2}
-  m_PrefabInternal: {fileID: 848524104}
 --- !u!4 &953573373 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4210400230260566, guid: 53a9f642966069c44a152dc4e08054f3,
     type: 2}
   m_PrefabInternal: {fileID: 848524104}
---- !u!1 &961754900 stripped
+--- !u!1 &956181740
 GameObject:
-  m_PrefabParentObject: {fileID: 1053703857237492, guid: 0f97b0191d8abad4581f1f3195e7c954,
-    type: 2}
-  m_PrefabInternal: {fileID: 1353491457}
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 956181742}
+  - component: {fileID: 956181741}
+  m_Layer: 0
+  m_Name: _NodeTypeManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &956181741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 956181740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7747a6e302b3d04a9190d8c183f53bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NodeTypeDetaList:
+  - NodeType: 1
+    TypeObject: {fileID: 1400906217237092, guid: eeeaf2fe060ec584da1a009e4185417d,
+      type: 2}
+    BasicLightPoint: 0
+    BasicDarkPoint: 0
+    LightPointEffect: 0
+    DarkPointEffect: 0
+    LightPointGenerate: 0
+    DarkPointGenerate: 0
+  - NodeType: 2
+    TypeObject: {fileID: 1053703857237492, guid: 0f97b0191d8abad4581f1f3195e7c954,
+      type: 2}
+    BasicLightPoint: 0
+    BasicDarkPoint: 70
+    LightPointEffect: -3
+    DarkPointEffect: 3
+    LightPointGenerate: -5
+    DarkPointGenerate: 5
+  - NodeType: 3
+    TypeObject: {fileID: 1428875305566186, guid: 53a9f642966069c44a152dc4e08054f3,
+      type: 2}
+    BasicLightPoint: 70
+    BasicDarkPoint: 0
+    LightPointEffect: 3
+    DarkPointEffect: -3
+    LightPointGenerate: 5
+    DarkPointGenerate: -5
+  - NodeType: 4
+    TypeObject: {fileID: 1045245929319538, guid: fb6c4a4f23239d7439b74a606d7eeda9,
+      type: 2}
+    BasicLightPoint: 30
+    BasicDarkPoint: 0
+    LightPointEffect: 1
+    DarkPointEffect: 0
+    LightPointGenerate: -1
+    DarkPointGenerate: 3
+  - NodeType: 5
+    TypeObject: {fileID: 1999419658673704, guid: efa9f99aa08385e4391a7946fdff77de,
+      type: 2}
+    BasicLightPoint: 0
+    BasicDarkPoint: 30
+    LightPointEffect: 0
+    DarkPointEffect: 1
+    LightPointGenerate: 3
+    DarkPointGenerate: -1
+--- !u!4 &956181742
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 956181740}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.4726162, y: -1.0815964, z: 5.216362}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &961754901 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4723181601694642, guid: 0f97b0191d8abad4581f1f3195e7c954,
@@ -2430,26 +2364,16 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1428875305566186, guid: 53a9f642966069c44a152dc4e08054f3, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 53a9f642966069c44a152dc4e08054f3, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &1013350533 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1400906217237092, guid: eeeaf2fe060ec584da1a009e4185417d,
-    type: 2}
-  m_PrefabInternal: {fileID: 288959479}
 --- !u!4 &1013350534 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4759597923395982, guid: eeeaf2fe060ec584da1a009e4185417d,
     type: 2}
   m_PrefabInternal: {fileID: 288959479}
---- !u!1 &1014062689 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1428875305566186, guid: 53a9f642966069c44a152dc4e08054f3,
-    type: 2}
-  m_PrefabInternal: {fileID: 1739651411}
 --- !u!4 &1014062690 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4210400230260566, guid: 53a9f642966069c44a152dc4e08054f3,
@@ -2470,7 +2394,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1031478983
 Transform:
   m_ObjectHideFlags: 0
@@ -2488,7 +2412,7 @@ Transform:
   - {fileID: 541239681}
   - {fileID: 1208856506}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1031478984
 MonoBehaviour:
@@ -2509,29 +2433,20 @@ MonoBehaviour:
   - {fileID: 1373438732}
   - {fileID: 1878887300}
   - {fileID: 1652995664}
-  CurrentNodeType: 0
-  BrightnessPoint: 0
-  DarknessPoint: 0
-  Neutral_Obj: {fileID: 541239680}
-  DemonCastle_Obj: {fileID: 1233935716}
-  HeroCastle_Obj: {fileID: 953573372}
-  Town_Obj: {fileID: 1310185806}
-  DemonWatchTower_Obj: {fileID: 1722459167}
---- !u!1 &1043786786 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1053703857237492, guid: 0f97b0191d8abad4581f1f3195e7c954,
-    type: 2}
-  m_PrefabInternal: {fileID: 1232072466}
+  CurrentNodeDeta:
+    NodeType: 0
+    TypeObject: {fileID: 0}
+    BasicLightPoint: 0
+    BasicDarkPoint: 0
+    LightPointEffect: 0
+    DarkPointEffect: 0
+    LightPointGenerate: 0
+    DarkPointGenerate: 0
 --- !u!4 &1043786787 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4723181601694642, guid: 0f97b0191d8abad4581f1f3195e7c954,
     type: 2}
   m_PrefabInternal: {fileID: 1232072466}
---- !u!1 &1088784051 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1999419658673704, guid: efa9f99aa08385e4391a7946fdff77de,
-    type: 2}
-  m_PrefabInternal: {fileID: 1098908117}
 --- !u!4 &1088784052 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4024410427832204, guid: efa9f99aa08385e4391a7946fdff77de,
@@ -2583,31 +2498,16 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: efa9f99aa08385e4391a7946fdff77de, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &1121252730 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1999419658673704, guid: efa9f99aa08385e4391a7946fdff77de,
-    type: 2}
-  m_PrefabInternal: {fileID: 51118493}
 --- !u!4 &1121252731 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4024410427832204, guid: efa9f99aa08385e4391a7946fdff77de,
     type: 2}
   m_PrefabInternal: {fileID: 51118493}
---- !u!1 &1150447233 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1400906217237092, guid: eeeaf2fe060ec584da1a009e4185417d,
-    type: 2}
-  m_PrefabInternal: {fileID: 80746757}
 --- !u!4 &1150447234 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4759597923395982, guid: eeeaf2fe060ec584da1a009e4185417d,
     type: 2}
   m_PrefabInternal: {fileID: 80746757}
---- !u!1 &1184379954 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1053703857237492, guid: 0f97b0191d8abad4581f1f3195e7c954,
-    type: 2}
-  m_PrefabInternal: {fileID: 288691542}
 --- !u!4 &1184379955 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4723181601694642, guid: 0f97b0191d8abad4581f1f3195e7c954,
@@ -2617,11 +2517,6 @@ Transform:
 Transform:
   m_PrefabParentObject: {fileID: 475264, guid: 067161ae46386c14c842800eb27cf27b, type: 2}
   m_PrefabInternal: {fileID: 572468814}
---- !u!1 &1214681548 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1428875305566186, guid: 53a9f642966069c44a152dc4e08054f3,
-    type: 2}
-  m_PrefabInternal: {fileID: 135869302}
 --- !u!4 &1214681549 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4210400230260566, guid: 53a9f642966069c44a152dc4e08054f3,
@@ -2677,11 +2572,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0f97b0191d8abad4581f1f3195e7c954, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &1233935716 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1053703857237492, guid: 0f97b0191d8abad4581f1f3195e7c954,
-    type: 2}
-  m_PrefabInternal: {fileID: 1772440940}
 --- !u!4 &1233935717 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4723181601694642, guid: 0f97b0191d8abad4581f1f3195e7c954,
@@ -2733,11 +2623,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fb6c4a4f23239d7439b74a606d7eeda9, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &1248571735 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1428875305566186, guid: 53a9f642966069c44a152dc4e08054f3,
-    type: 2}
-  m_PrefabInternal: {fileID: 1392344130}
 --- !u!4 &1248571736 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4210400230260566, guid: 53a9f642966069c44a152dc4e08054f3,
@@ -2793,11 +2678,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 53a9f642966069c44a152dc4e08054f3, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &1280100081 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1428875305566186, guid: 53a9f642966069c44a152dc4e08054f3,
-    type: 2}
-  m_PrefabInternal: {fileID: 164875050}
 --- !u!4 &1280100082 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4210400230260566, guid: 53a9f642966069c44a152dc4e08054f3,
@@ -2895,21 +2775,11 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fb6c4a4f23239d7439b74a606d7eeda9, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &1306121903 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1400906217237092, guid: eeeaf2fe060ec584da1a009e4185417d,
-    type: 2}
-  m_PrefabInternal: {fileID: 982416323}
 --- !u!4 &1306121904 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4759597923395982, guid: eeeaf2fe060ec584da1a009e4185417d,
     type: 2}
   m_PrefabInternal: {fileID: 982416323}
---- !u!1 &1310185806 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1045245929319538, guid: fb6c4a4f23239d7439b74a606d7eeda9,
-    type: 2}
-  m_PrefabInternal: {fileID: 1248048418}
 --- !u!4 &1310185807 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4677408924755062, guid: fb6c4a4f23239d7439b74a606d7eeda9,
@@ -3015,21 +2885,11 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 067161ae46386c14c842800eb27cf27b, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &1337385956 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1428875305566186, guid: 53a9f642966069c44a152dc4e08054f3,
-    type: 2}
-  m_PrefabInternal: {fileID: 832574197}
 --- !u!4 &1337385957 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4210400230260566, guid: 53a9f642966069c44a152dc4e08054f3,
     type: 2}
   m_PrefabInternal: {fileID: 832574197}
---- !u!1 &1349503343 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1999419658673704, guid: efa9f99aa08385e4391a7946fdff77de,
-    type: 2}
-  m_PrefabInternal: {fileID: 1287762317}
 --- !u!4 &1349503344 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4024410427832204, guid: efa9f99aa08385e4391a7946fdff77de,
@@ -3188,7 +3048,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1373438732
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3205,14 +3065,15 @@ MonoBehaviour:
   - {fileID: 1031478984}
   - {fileID: 298183549}
   - {fileID: 1652397204}
-  CurrentNodeType: 0
-  BrightnessPoint: 0
-  DarknessPoint: 0
-  Neutral_Obj: {fileID: 1013350533}
-  DemonCastle_Obj: {fileID: 1184379954}
-  HeroCastle_Obj: {fileID: 763748758}
-  Town_Obj: {fileID: 456718881}
-  DemonWatchTower_Obj: {fileID: 48300381}
+  CurrentNodeDeta:
+    NodeType: 0
+    TypeObject: {fileID: 0}
+    BasicLightPoint: 0
+    BasicDarkPoint: 0
+    LightPointEffect: 0
+    DarkPointEffect: 0
+    LightPointGenerate: 0
+    DarkPointGenerate: 0
 --- !u!4 &1373438733
 Transform:
   m_ObjectHideFlags: 0
@@ -3230,7 +3091,7 @@ Transform:
   - {fileID: 1013350534}
   - {fileID: 2121599037}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1392344130
 Prefab:
@@ -3282,11 +3143,6 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 475264, guid: 067161ae46386c14c842800eb27cf27b, type: 2}
   m_PrefabInternal: {fileID: 1652549630}
---- !u!1 &1438898634 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1999419658673704, guid: efa9f99aa08385e4391a7946fdff77de,
-    type: 2}
-  m_PrefabInternal: {fileID: 784446598}
 --- !u!4 &1438898635 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4024410427832204, guid: efa9f99aa08385e4391a7946fdff77de,
@@ -3350,41 +3206,21 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: eeeaf2fe060ec584da1a009e4185417d, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &1484599075 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1045245929319538, guid: fb6c4a4f23239d7439b74a606d7eeda9,
-    type: 2}
-  m_PrefabInternal: {fileID: 287318641}
 --- !u!4 &1484599076 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4677408924755062, guid: fb6c4a4f23239d7439b74a606d7eeda9,
     type: 2}
   m_PrefabInternal: {fileID: 287318641}
---- !u!1 &1489957651 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1045245929319538, guid: fb6c4a4f23239d7439b74a606d7eeda9,
-    type: 2}
-  m_PrefabInternal: {fileID: 107060404}
 --- !u!4 &1489957652 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4677408924755062, guid: fb6c4a4f23239d7439b74a606d7eeda9,
     type: 2}
   m_PrefabInternal: {fileID: 107060404}
---- !u!1 &1492063073 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1428875305566186, guid: 53a9f642966069c44a152dc4e08054f3,
-    type: 2}
-  m_PrefabInternal: {fileID: 2003936155}
 --- !u!4 &1492063074 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4210400230260566, guid: 53a9f642966069c44a152dc4e08054f3,
     type: 2}
   m_PrefabInternal: {fileID: 2003936155}
---- !u!1 &1497298669 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1428875305566186, guid: 53a9f642966069c44a152dc4e08054f3,
-    type: 2}
-  m_PrefabInternal: {fileID: 608581676}
 --- !u!4 &1497298670 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4210400230260566, guid: 53a9f642966069c44a152dc4e08054f3,
@@ -3601,7 +3437,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1555117816
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3619,14 +3455,15 @@ MonoBehaviour:
   - {fileID: 1031478984}
   - {fileID: 1595088646}
   - {fileID: 838668596}
-  CurrentNodeType: 0
-  BrightnessPoint: 0
-  DarknessPoint: 0
-  Neutral_Obj: {fileID: 1150447233}
-  DemonCastle_Obj: {fileID: 451732685}
-  HeroCastle_Obj: {fileID: 1492063073}
-  Town_Obj: {fileID: 1489957651}
-  DemonWatchTower_Obj: {fileID: 584407973}
+  CurrentNodeDeta:
+    NodeType: 0
+    TypeObject: {fileID: 0}
+    BasicLightPoint: 0
+    BasicDarkPoint: 0
+    LightPointEffect: 0
+    DarkPointEffect: 0
+    LightPointGenerate: 0
+    DarkPointGenerate: 0
 --- !u!4 &1555117817
 Transform:
   m_ObjectHideFlags: 0
@@ -3644,7 +3481,7 @@ Transform:
   - {fileID: 1150447234}
   - {fileID: 2025783863}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1581304282
 Prefab:
@@ -3741,26 +3578,16 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1999419658673704, guid: efa9f99aa08385e4391a7946fdff77de, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: efa9f99aa08385e4391a7946fdff77de, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &1589043222 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1999419658673704, guid: efa9f99aa08385e4391a7946fdff77de,
-    type: 2}
-  m_PrefabInternal: {fileID: 870078893}
 --- !u!4 &1589043223 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4024410427832204, guid: efa9f99aa08385e4391a7946fdff77de,
     type: 2}
   m_PrefabInternal: {fileID: 870078893}
---- !u!1 &1594688032 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1400906217237092, guid: eeeaf2fe060ec584da1a009e4185417d,
-    type: 2}
-  m_PrefabInternal: {fileID: 1923825190}
 --- !u!4 &1594688033 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4759597923395982, guid: eeeaf2fe060ec584da1a009e4185417d,
@@ -3781,7 +3608,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1595088646
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3799,14 +3626,15 @@ MonoBehaviour:
   - {fileID: 1555117816}
   - {fileID: 1031478984}
   - {fileID: 141620363}
-  CurrentNodeType: 1
-  BrightnessPoint: 0
-  DarknessPoint: 0
-  Neutral_Obj: {fileID: 1944176658}
-  DemonCastle_Obj: {fileID: 961754900}
-  HeroCastle_Obj: {fileID: 1248571735}
-  Town_Obj: {fileID: 1484599075}
-  DemonWatchTower_Obj: {fileID: 469625460}
+  CurrentNodeDeta:
+    NodeType: 0
+    TypeObject: {fileID: 0}
+    BasicLightPoint: 0
+    BasicDarkPoint: 0
+    LightPointEffect: 0
+    DarkPointEffect: 0
+    LightPointGenerate: 0
+    DarkPointGenerate: 0
 --- !u!4 &1595088647
 Transform:
   m_ObjectHideFlags: 0
@@ -3824,23 +3652,13 @@ Transform:
   - {fileID: 1944176659}
   - {fileID: 759774525}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1596195952 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1400906217237092, guid: eeeaf2fe060ec584da1a009e4185417d,
-    type: 2}
-  m_PrefabInternal: {fileID: 803515703}
 --- !u!4 &1596195953 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4759597923395982, guid: eeeaf2fe060ec584da1a009e4185417d,
     type: 2}
   m_PrefabInternal: {fileID: 803515703}
---- !u!1 &1599920545 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1045245929319538, guid: fb6c4a4f23239d7439b74a606d7eeda9,
-    type: 2}
-  m_PrefabInternal: {fileID: 528196084}
 --- !u!4 &1599920546 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4677408924755062, guid: fb6c4a4f23239d7439b74a606d7eeda9,
@@ -3904,11 +3722,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: eeeaf2fe060ec584da1a009e4185417d, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &1605889348 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1400906217237092, guid: eeeaf2fe060ec584da1a009e4185417d,
-    type: 2}
-  m_PrefabInternal: {fileID: 1472645916}
 --- !u!4 &1605889349 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4759597923395982, guid: eeeaf2fe060ec584da1a009e4185417d,
@@ -4052,14 +3865,15 @@ MonoBehaviour:
   NearByGroundNodeList:
   - {fileID: 1373438732}
   - {fileID: 298183549}
-  CurrentNodeType: 0
-  BrightnessPoint: 0
-  DarknessPoint: 0
-  Neutral_Obj: {fileID: 2029773533}
-  DemonCastle_Obj: {fileID: 538484242}
-  HeroCastle_Obj: {fileID: 913477625}
-  Town_Obj: {fileID: 748971234}
-  DemonWatchTower_Obj: {fileID: 526245145}
+  CurrentNodeDeta:
+    NodeType: 0
+    TypeObject: {fileID: 0}
+    BasicLightPoint: 0
+    BasicDarkPoint: 0
+    LightPointEffect: 0
+    DarkPointEffect: 0
+    LightPointGenerate: 0
+    DarkPointGenerate: 0
 --- !u!4 &1652397205
 Transform:
   m_ObjectHideFlags: 0
@@ -4077,7 +3891,7 @@ Transform:
   - {fileID: 2029773534}
   - {fileID: 1624476891}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1652549630
 Prefab:
@@ -4148,7 +3962,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1652995664
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4166,14 +3980,15 @@ MonoBehaviour:
   - {fileID: 1878887300}
   - {fileID: 1709627851}
   - {fileID: 1829511004}
-  CurrentNodeType: 0
-  BrightnessPoint: 0
-  DarknessPoint: 0
-  Neutral_Obj: {fileID: 1306121903}
-  DemonCastle_Obj: {fileID: 610071725}
-  HeroCastle_Obj: {fileID: 1214681548}
-  Town_Obj: {fileID: 246954480}
-  DemonWatchTower_Obj: {fileID: 1088784051}
+  CurrentNodeDeta:
+    NodeType: 0
+    TypeObject: {fileID: 0}
+    BasicLightPoint: 0
+    BasicDarkPoint: 0
+    LightPointEffect: 0
+    DarkPointEffect: 0
+    LightPointGenerate: 0
+    DarkPointGenerate: 0
 --- !u!4 &1652995665
 Transform:
   m_ObjectHideFlags: 0
@@ -4191,7 +4006,7 @@ Transform:
   - {fileID: 1306121904}
   - {fileID: 1790225169}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1658341383
 GameObject:
@@ -4208,7 +4023,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1658341384
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4223,14 +4038,15 @@ MonoBehaviour:
   NearByGroundNodeList:
   - {fileID: 838668596}
   - {fileID: 1595088646}
-  CurrentNodeType: 0
-  BrightnessPoint: 0
-  DarknessPoint: 0
-  Neutral_Obj: {fileID: 469567658}
-  DemonCastle_Obj: {fileID: 271028813}
-  HeroCastle_Obj: {fileID: 349818148}
-  Town_Obj: {fileID: 1599920545}
-  DemonWatchTower_Obj: {fileID: 1823676333}
+  CurrentNodeDeta:
+    NodeType: 0
+    TypeObject: {fileID: 0}
+    BasicLightPoint: 0
+    BasicDarkPoint: 0
+    LightPointEffect: 0
+    DarkPointEffect: 0
+    LightPointGenerate: 0
+    DarkPointGenerate: 0
 --- !u!4 &1658341385
 Transform:
   m_ObjectHideFlags: 0
@@ -4248,7 +4064,7 @@ Transform:
   - {fileID: 469567659}
   - {fileID: 94943189}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1660135668
 Prefab:
@@ -4300,11 +4116,6 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 475264, guid: 067161ae46386c14c842800eb27cf27b, type: 2}
   m_PrefabInternal: {fileID: 1581304282}
---- !u!1 &1675191945 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1053703857237492, guid: 0f97b0191d8abad4581f1f3195e7c954,
-    type: 2}
-  m_PrefabInternal: {fileID: 1539658255}
 --- !u!4 &1675191946 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4723181601694642, guid: 0f97b0191d8abad4581f1f3195e7c954,
@@ -4378,7 +4189,7 @@ GameObject:
   - component: {fileID: 1707979571}
   - component: {fileID: 1707979570}
   m_Layer: 0
-  m_Name: GroundNodeManager
+  m_Name: _GroundNodeManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4424,7 +4235,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1709627851
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4439,14 +4250,15 @@ MonoBehaviour:
   NearByGroundNodeList:
   - {fileID: 1555117816}
   - {fileID: 1652995664}
-  CurrentNodeType: 0
-  BrightnessPoint: 0
-  DarknessPoint: 0
-  Neutral_Obj: {fileID: 902383463}
-  DemonCastle_Obj: {fileID: 680256757}
-  HeroCastle_Obj: {fileID: 1337385956}
-  Town_Obj: {fileID: 301948285}
-  DemonWatchTower_Obj: {fileID: 1810582379}
+  CurrentNodeDeta:
+    NodeType: 0
+    TypeObject: {fileID: 0}
+    BasicLightPoint: 0
+    BasicDarkPoint: 0
+    LightPointEffect: 0
+    DarkPointEffect: 0
+    LightPointGenerate: 0
+    DarkPointGenerate: 0
 --- !u!4 &1709627852
 Transform:
   m_ObjectHideFlags: 0
@@ -4464,7 +4276,7 @@ Transform:
   - {fileID: 902383464}
   - {fileID: 1270823277}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1715185667
 Prefab:
@@ -4512,11 +4324,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: efa9f99aa08385e4391a7946fdff77de, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &1722459167 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1999419658673704, guid: efa9f99aa08385e4391a7946fdff77de,
-    type: 2}
-  m_PrefabInternal: {fileID: 1715185667}
 --- !u!4 &1722459168 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4024410427832204, guid: efa9f99aa08385e4391a7946fdff77de,
@@ -4672,21 +4479,11 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 475264, guid: 067161ae46386c14c842800eb27cf27b, type: 2}
   m_PrefabInternal: {fileID: 212795963}
---- !u!1 &1810582379 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1999419658673704, guid: efa9f99aa08385e4391a7946fdff77de,
-    type: 2}
-  m_PrefabInternal: {fileID: 207365053}
 --- !u!4 &1810582380 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4024410427832204, guid: efa9f99aa08385e4391a7946fdff77de,
     type: 2}
   m_PrefabInternal: {fileID: 207365053}
---- !u!1 &1823676333 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1999419658673704, guid: efa9f99aa08385e4391a7946fdff77de,
-    type: 2}
-  m_PrefabInternal: {fileID: 2015036666}
 --- !u!4 &1823676334 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4024410427832204, guid: efa9f99aa08385e4391a7946fdff77de,
@@ -4707,7 +4504,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1829511004
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4722,14 +4519,15 @@ MonoBehaviour:
   NearByGroundNodeList:
   - {fileID: 1878887300}
   - {fileID: 1652995664}
-  CurrentNodeType: 0
-  BrightnessPoint: 0
-  DarknessPoint: 0
-  Neutral_Obj: {fileID: 123120323}
-  DemonCastle_Obj: {fileID: 1043786786}
-  HeroCastle_Obj: {fileID: 1280100081}
-  Town_Obj: {fileID: 1966495826}
-  DemonWatchTower_Obj: {fileID: 1589043222}
+  CurrentNodeDeta:
+    NodeType: 0
+    TypeObject: {fileID: 0}
+    BasicLightPoint: 0
+    BasicDarkPoint: 0
+    LightPointEffect: 0
+    DarkPointEffect: 0
+    LightPointGenerate: 0
+    DarkPointGenerate: 0
 --- !u!4 &1829511005
 Transform:
   m_ObjectHideFlags: 0
@@ -4747,7 +4545,7 @@ Transform:
   - {fileID: 123120324}
   - {fileID: 644317672}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1860219594
 Prefab:
@@ -4795,11 +4593,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fb6c4a4f23239d7439b74a606d7eeda9, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &1874304750 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1999419658673704, guid: efa9f99aa08385e4391a7946fdff77de,
-    type: 2}
-  m_PrefabInternal: {fileID: 158795210}
 --- !u!4 &1874304751 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4024410427832204, guid: efa9f99aa08385e4391a7946fdff77de,
@@ -4820,7 +4613,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1878887300
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4838,14 +4631,15 @@ MonoBehaviour:
   - {fileID: 1031478984}
   - {fileID: 1373438732}
   - {fileID: 298183549}
-  CurrentNodeType: 0
-  BrightnessPoint: 0
-  DarknessPoint: 0
-  Neutral_Obj: {fileID: 1596195952}
-  DemonCastle_Obj: {fileID: 1981131483}
-  HeroCastle_Obj: {fileID: 1497298669}
-  Town_Obj: {fileID: 538129543}
-  DemonWatchTower_Obj: {fileID: 1438898634}
+  CurrentNodeDeta:
+    NodeType: 0
+    TypeObject: {fileID: 0}
+    BasicLightPoint: 0
+    BasicDarkPoint: 0
+    LightPointEffect: 0
+    DarkPointEffect: 0
+    LightPointGenerate: 0
+    DarkPointGenerate: 0
 --- !u!4 &1878887301
 Transform:
   m_ObjectHideFlags: 0
@@ -4863,7 +4657,7 @@ Transform:
   - {fileID: 1596195953}
   - {fileID: 1671261719}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1899636580
 Prefab:
@@ -5073,11 +4867,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: efa9f99aa08385e4391a7946fdff77de, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &1944176658 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1400906217237092, guid: eeeaf2fe060ec584da1a009e4185417d,
-    type: 2}
-  m_PrefabInternal: {fileID: 1899636580}
 --- !u!4 &1944176659 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4759597923395982, guid: eeeaf2fe060ec584da1a009e4185417d,
@@ -5137,11 +4926,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 067161ae46386c14c842800eb27cf27b, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &1966495826 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1045245929319538, guid: fb6c4a4f23239d7439b74a606d7eeda9,
-    type: 2}
-  m_PrefabInternal: {fileID: 608395756}
 --- !u!4 &1966495827 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4677408924755062, guid: fb6c4a4f23239d7439b74a606d7eeda9,
@@ -5201,11 +4985,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 067161ae46386c14c842800eb27cf27b, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &1981131483 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1053703857237492, guid: 0f97b0191d8abad4581f1f3195e7c954,
-    type: 2}
-  m_PrefabInternal: {fileID: 2089820285}
 --- !u!4 &1981131484 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4723181601694642, guid: 0f97b0191d8abad4581f1f3195e7c954,
@@ -5361,11 +5140,6 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 475264, guid: 067161ae46386c14c842800eb27cf27b, type: 2}
   m_PrefabInternal: {fileID: 976059916}
---- !u!1 &2029773533 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1400906217237092, guid: eeeaf2fe060ec584da1a009e4185417d,
-    type: 2}
-  m_PrefabInternal: {fileID: 827265380}
 --- !u!4 &2029773534 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4759597923395982, guid: eeeaf2fe060ec584da1a009e4185417d,
